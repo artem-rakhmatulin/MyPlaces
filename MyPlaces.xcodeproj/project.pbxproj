@@ -7,28 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC07B585251E1A5000B492C9 /* RATImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AC07B584251E1A5000B492C9 /* RATImageStore.m */; };
+		AC07B588251E5CFD00B492C9 /* RATDetailViewController+UITextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC07B587251E5CFD00B492C9 /* RATDetailViewController+UITextFieldDelegate.m */; };
+		AC07B58B251E643100B492C9 /* RATDetailViewController+UIImagePickerControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC07B58A251E643100B492C9 /* RATDetailViewController+UIImagePickerControllerDelegate.m */; };
 		AC4999162512311600F2267A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4999152512311600F2267A /* AppDelegate.m */; };
-		AC4999192512311600F2267A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4999182512311600F2267A /* SceneDelegate.m */; };
-		AC49991C2512311600F2267A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC49991B2512311600F2267A /* ViewController.m */; };
-		AC49991F2512311600F2267A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC49991D2512311600F2267A /* Main.storyboard */; };
 		AC4999212512311800F2267A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4999202512311800F2267A /* Assets.xcassets */; };
 		AC4999242512311800F2267A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4999222512311800F2267A /* LaunchScreen.storyboard */; };
 		AC4999272512311800F2267A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4999262512311800F2267A /* main.m */; };
+		AC4999322512427500F2267A /* RATPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4999312512427500F2267A /* RATPlacesViewController.m */; };
+		AC49993525124BDC00F2267A /* RATPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = AC49993425124BDC00F2267A /* RATPlace.m */; };
+		AC4999382512581F00F2267A /* RATPlaceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4999372512581F00F2267A /* RATPlaceStore.m */; };
+		AC80F2F02518D3380036029E /* RATDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC80F2EE2518D3380036029E /* RATDetailViewController.m */; };
+		AC80F2F12518D3380036029E /* RATDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC80F2EF2518D3380036029E /* RATDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC4999112512311600F2267A /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC07B583251E1A5000B492C9 /* RATImageStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATImageStore.h; sourceTree = "<group>"; };
+		AC07B584251E1A5000B492C9 /* RATImageStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATImageStore.m; sourceTree = "<group>"; };
+		AC07B587251E5CFD00B492C9 /* RATDetailViewController+UITextFieldDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RATDetailViewController+UITextFieldDelegate.m"; sourceTree = "<group>"; };
+		AC07B58A251E643100B492C9 /* RATDetailViewController+UIImagePickerControllerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RATDetailViewController+UIImagePickerControllerDelegate.m"; sourceTree = "<group>"; };
+		AC07B58F251E69B800B492C9 /* RATDetailViewController+.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RATDetailViewController+.h"; sourceTree = "<group>"; };
+		AC4999112512311600F2267A /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4999142512311600F2267A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC4999152512311600F2267A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC4999172512311600F2267A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		AC4999182512311600F2267A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		AC49991A2512311600F2267A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC49991B2512311600F2267A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AC49991E2512311600F2267A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC4999202512311800F2267A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4999232512311800F2267A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4999252512311800F2267A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC4999262512311800F2267A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC4999302512427500F2267A /* RATPlacesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATPlacesViewController.h; sourceTree = "<group>"; };
+		AC4999312512427500F2267A /* RATPlacesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATPlacesViewController.m; sourceTree = "<group>"; };
+		AC49993325124BDC00F2267A /* RATPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATPlace.h; sourceTree = "<group>"; };
+		AC49993425124BDC00F2267A /* RATPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATPlace.m; sourceTree = "<group>"; };
+		AC4999362512581F00F2267A /* RATPlaceStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATPlaceStore.h; sourceTree = "<group>"; };
+		AC4999372512581F00F2267A /* RATPlaceStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATPlaceStore.m; sourceTree = "<group>"; };
+		AC80F2ED2518D3380036029E /* RATDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATDetailViewController.h; sourceTree = "<group>"; };
+		AC80F2EE2518D3380036029E /* RATDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATDetailViewController.m; sourceTree = "<group>"; };
+		AC80F2EF2518D3380036029E /* RATDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RATDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +59,7 @@
 		AC4999082512311600F2267A = {
 			isa = PBXGroup;
 			children = (
-				AC4999132512311600F2267A /* Homepwner */,
+				AC4999132512311600F2267A /* MyPlaces */,
 				AC4999122512311600F2267A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,35 +67,44 @@
 		AC4999122512311600F2267A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC4999112512311600F2267A /* Homepwner.app */,
+				AC4999112512311600F2267A /* MyPlaces.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC4999132512311600F2267A /* Homepwner */ = {
+		AC4999132512311600F2267A /* MyPlaces */ = {
 			isa = PBXGroup;
 			children = (
 				AC4999142512311600F2267A /* AppDelegate.h */,
 				AC4999152512311600F2267A /* AppDelegate.m */,
-				AC4999172512311600F2267A /* SceneDelegate.h */,
-				AC4999182512311600F2267A /* SceneDelegate.m */,
-				AC49991A2512311600F2267A /* ViewController.h */,
-				AC49991B2512311600F2267A /* ViewController.m */,
-				AC49991D2512311600F2267A /* Main.storyboard */,
+				AC80F2ED2518D3380036029E /* RATDetailViewController.h */,
+				AC80F2EE2518D3380036029E /* RATDetailViewController.m */,
+				AC80F2EF2518D3380036029E /* RATDetailViewController.xib */,
+				AC07B58F251E69B800B492C9 /* RATDetailViewController+.h */,
+				AC07B587251E5CFD00B492C9 /* RATDetailViewController+UITextFieldDelegate.m */,
+				AC07B58A251E643100B492C9 /* RATDetailViewController+UIImagePickerControllerDelegate.m */,
+				AC4999302512427500F2267A /* RATPlacesViewController.h */,
+				AC4999312512427500F2267A /* RATPlacesViewController.m */,
+				AC49993325124BDC00F2267A /* RATPlace.h */,
+				AC49993425124BDC00F2267A /* RATPlace.m */,
+				AC4999362512581F00F2267A /* RATPlaceStore.h */,
+				AC4999372512581F00F2267A /* RATPlaceStore.m */,
+				AC07B583251E1A5000B492C9 /* RATImageStore.h */,
+				AC07B584251E1A5000B492C9 /* RATImageStore.m */,
 				AC4999202512311800F2267A /* Assets.xcassets */,
 				AC4999222512311800F2267A /* LaunchScreen.storyboard */,
 				AC4999252512311800F2267A /* Info.plist */,
 				AC4999262512311800F2267A /* main.m */,
 			);
-			path = Homepwner;
+			path = MyPlaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC4999102512311600F2267A /* Homepwner */ = {
+		AC4999102512311600F2267A /* MyPlaces */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC49992A2512311800F2267A /* Build configuration list for PBXNativeTarget "Homepwner" */;
+			buildConfigurationList = AC49992A2512311800F2267A /* Build configuration list for PBXNativeTarget "MyPlaces" */;
 			buildPhases = (
 				AC49990D2512311600F2267A /* Sources */,
 				AC49990E2512311600F2267A /* Frameworks */,
@@ -91,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = Homepwner;
+			name = MyPlaces;
 			productName = Homepwner;
-			productReference = AC4999112512311600F2267A /* Homepwner.app */;
+			productReference = AC4999112512311600F2267A /* MyPlaces.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,6 +125,7 @@
 		AC4999092512311600F2267A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RAT;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Rakhmatulin Artem Timurovich IP";
 				TargetAttributes = {
@@ -110,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC49990C2512311600F2267A /* Build configuration list for PBXProject "Homepwner" */;
+			buildConfigurationList = AC49990C2512311600F2267A /* Build configuration list for PBXProject "MyPlaces" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC4999102512311600F2267A /* Homepwner */,
+				AC4999102512311600F2267A /* MyPlaces */,
 			);
 		};
 /* End PBXProject section */
@@ -133,9 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC80F2F12518D3380036029E /* RATDetailViewController.xib in Resources */,
 				AC4999242512311800F2267A /* LaunchScreen.storyboard in Resources */,
 				AC4999212512311800F2267A /* Assets.xcassets in Resources */,
-				AC49991F2512311600F2267A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +170,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC49991C2512311600F2267A /* ViewController.m in Sources */,
+				AC07B588251E5CFD00B492C9 /* RATDetailViewController+UITextFieldDelegate.m in Sources */,
+				AC07B58B251E643100B492C9 /* RATDetailViewController+UIImagePickerControllerDelegate.m in Sources */,
 				AC4999162512311600F2267A /* AppDelegate.m in Sources */,
+				AC07B585251E1A5000B492C9 /* RATImageStore.m in Sources */,
+				AC49993525124BDC00F2267A /* RATPlace.m in Sources */,
+				AC4999322512427500F2267A /* RATPlacesViewController.m in Sources */,
+				AC80F2F02518D3380036029E /* RATDetailViewController.m in Sources */,
+				AC4999382512581F00F2267A /* RATPlaceStore.m in Sources */,
 				AC4999272512311800F2267A /* main.m in Sources */,
-				AC4999192512311600F2267A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC49991D2512311600F2267A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC49991E2512311600F2267A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC4999222512311800F2267A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -225,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,13 +312,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZ6M9K8H8C;
-				INFOPLIST_FILE = Homepwner/Info.plist;
+				INFOPLIST_FILE = MyPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rakhmatulin.Homepwner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakhmatulin.MyPlaces;
+				PRODUCT_NAME = MyPlaces;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -308,13 +329,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZ6M9K8H8C;
-				INFOPLIST_FILE = Homepwner/Info.plist;
+				INFOPLIST_FILE = MyPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rakhmatulin.Homepwner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rakhmatulin.MyPlaces;
+				PRODUCT_NAME = MyPlaces;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -322,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC49990C2512311600F2267A /* Build configuration list for PBXProject "Homepwner" */ = {
+		AC49990C2512311600F2267A /* Build configuration list for PBXProject "MyPlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC4999282512311800F2267A /* Debug */,
@@ -331,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC49992A2512311800F2267A /* Build configuration list for PBXNativeTarget "Homepwner" */ = {
+		AC49992A2512311800F2267A /* Build configuration list for PBXNativeTarget "MyPlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC49992B2512311800F2267A /* Debug */,

@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  AppDelegate.h
 //  Homepwner
 //
 //  Created by Artem Rakhmatulin on 16/09/2020.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow * window;
+@property (nonatomic, strong) UIWindow *window;
 
 @end
 
